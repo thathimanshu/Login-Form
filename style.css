@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;        
+    height: 350px;
+    width: 300px;
+    z-index: 1;  
+    border-radius:1rem;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(20px);
+}
+.text{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: white;
+    margin: 2rem 0;
+}
+.input{
+    width: 220px;
+    padding: 0.5rem 0.5rem;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius:40px;
+    padding-left: 0.75rem;
+    background:transparent;
+    color: white;
+}
+.input-div input::placeholder{
+    color: white;
+}
+.input-div{
+    display: flex;
+    align-items: center ;
+}
+.opss{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: space-between;
+}
+.material-symbols-outlined{
+    color: white;
+}
+.line1{
+    width: 100%;
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: white;
+    justify-content: space-around;
+}
+.frgt{
+    color: white;
+    text-decoration: none;
+}
+.rem-me{
+    display: flex;
+    align-items: center;
+}
+.line2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.login{
+    width: 242px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius:40px;
+    padding: 0.5rem 0.5rem;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.line3{
+    width: 100%;
+    font-size: 9px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.regg{
+    margin-left: 2px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#tick{
+    accent-color: white;
+}
