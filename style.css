@@ -121,3 +121,7 @@ body{
 #tick{
     accent-color: white;
 }
+
+.login:active{
+    background-color: hsl(0, 0%, 80%);
+}
